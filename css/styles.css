@@ -59,10 +59,12 @@ li {
 
 /* Шапка сайта */
 
+.main-header {
+}
+
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -154,6 +156,7 @@ li {
 
 .hero {
   background-color: var(--dark-background-color);
+  border-top: 1px solid #ececec;
 }
 
 .hero-content {
@@ -312,6 +315,7 @@ li {
 .projects {
   padding-top: 94px;
   padding-bottom: 94px;
+  border-top: 1px solid #ececec;
 }
 .category {
   display: flex;
@@ -360,13 +364,17 @@ li {
   margin-bottom: 0;
 }
 
-.project-image {
-  margin-bottom: 20px;
+.project-description {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
+
+.project-image {
+  display: block;
+}
+
 .category-project {
-  margin-right: 24px;
   margin-bottom: 4px;
-  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -376,9 +384,6 @@ li {
 }
 
 .category-name {
-  margin-right: 24px;
-  margin-bottom: 20px;
-  margin-left: 24px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
